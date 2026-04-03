@@ -29,7 +29,7 @@
 - falto incluir la biblioteca <stdio.h>.
 - falto ';' al final de la linea 17 y en el return 0.
 - faltaba el operador de direccion & antes de la variable valor 1 en la funcion scanf.
-- La función duplicar_numero recibía una copia de la variable, por lo que el cambio no se reflejaba en el main.
+- La función duplicar_numero recibía una copia de la variable, por lo que el cambio no se veia en el main.
 
 **soluciones**
 
