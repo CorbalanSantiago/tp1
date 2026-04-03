@@ -45,8 +45,9 @@ int main()
     printf("Ingrese el valor 2: ");
     scanf("%d", &y);
 
-    printf("El cuadrado de %d es %d\n", x, cuadrado(x));
-
+    printf("El cuadrado (con return) de %d es %d\n", x, cuadrado(x));
+    cuadradoVoid(x);
+    
     mostrarDatos(x);
 
     printf("Antes de invertir: valor 1= %d, valor 2= %d\n", x, y);
