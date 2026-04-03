@@ -1,6 +1,6 @@
 # tp1
 
-##### Ejercicio 2: .gitignore
+# Ejercicio 2: .gitignore
 
 - **¿Qué es?** Es un archivo que le dice a Git qué archivos o carpetas debe ignorar.
 
@@ -10,7 +10,7 @@
 
 - **¿Cómo configuraría el archivo .gitignore?** creando un archivo de texto plano en la raíz del repositorio llamado .gitignore. Dentro de él, se escribe una lista de nombres de archivos o extensiones que Git debe ignorar. Se pueden usar comodines como el asterisco (*) para ignorar todos los archivos de un mismo tipo (por ejemplo, *.exe para no subir ejecutables de C) o nombres de carpetas específicos (como .vscode/). Cada regla debe ir en una línea distinta. 
 
-##### Ejercicio 3
+# Ejercicio 3
 
 ### Codigo Misterioso
 
@@ -37,3 +37,7 @@
 - poner los respectivos ';'.
 - poner el operador de direccion en el primer scanf del valor 1.
 - transforme la función para que reciba un puntero (int *numero). De esta manera, la función accede directamente a la dirección de memoria de la variable original y modificar su valor de forma permanente.
+
+# ejercicio 4
+
+en el archivo tp1_1.c se muestra el valor de la direccion de memoria almacenada por un puntero y el valor de la direccion de memoria de la variable, y se puede ver que son el mismo valor, esto se debe a que la variable puntero apunta a la direccion de memoria de la variable por lo tanto esa es la informacion que almacena el puntero por eso es el mismo valor. Y despues tambien se muestra el valor de la direccion de memoria de la variable de tipo puntero, y se ve que es diferente a los otros dos valores, esto se debe a que como el puntero es otro tipo de variable entonces tambien tiene su propia direccion de memoria y por eso es diferente.
